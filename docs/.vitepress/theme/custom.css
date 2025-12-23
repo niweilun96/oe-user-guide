@@ -1,0 +1,14 @@
+/* 美化所有 Markdown 中的图片 */
+.content img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.content img:hover {
+  transform: scale(1.05);
+}
